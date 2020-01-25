@@ -47,7 +47,10 @@ systemd-analyze security --user ssh-agent
 ```
 
 View service logs/journal output:
-`journalctl --user -u ssh-agent` or `journalctl --user-unit ssh-agent`
+```journalctl --user -u ssh-agent```
+or
+```journalctl --user-unit ssh-agent```
+
 
 ## ssh-agent
 
